@@ -15,7 +15,7 @@
   "author": "Reza Akhavan <jedireza@gmail.com> (http://reza.akhavan.me/)",
   "license": "MIT",
   "dependencies": {
-    "async": "^1.x.x",
+    "async": "^3.2.2",
     "bcrypt": "^0.8.x",
     "boom": "^2.x.x",
     "classnames": "^2.x.x",
@@ -26,7 +26,7 @@
     "hapi": "^8.x.x",
     "hapi-auth-basic": "^2.x.x",
     "hapi-auth-cookie": "^3.x.x",
-    "hapi-mongo-models": "^2.x.x",
+    "hapi-mongo-models": "^6.0.0",
     "hapi-react-views": "^3.x.x",
     "hoek": "^2.x.x",
     "joi": "^6.x.x",
