@@ -23,7 +23,7 @@
     "crumb": "^4.x.x",
     "glue": "^2.x.x",
     "handlebars": "^3.x.x",
-    "hapi": "^8.x.x",
+    "hapi": "^11.0.4",
     "hapi-auth-basic": "^2.x.x",
     "hapi-auth-cookie": "^3.x.x",
     "hapi-mongo-models": "^2.x.x",
