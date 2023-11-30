@@ -27,7 +27,7 @@
     "hapi-auth-basic": "^2.x.x",
     "hapi-auth-cookie": "^3.x.x",
     "hapi-mongo-models": "^2.x.x",
-    "hapi-react-views": "^3.x.x",
+    "hapi-react-views": "^4.0.0",
     "hoek": "^2.x.x",
     "joi": "^6.x.x",
     "lout": "^6.x.x",
@@ -36,7 +36,7 @@
     "nodemailer": "^1.x.x",
     "nodemailer-markdown": "^1.x.x",
     "object-assign": "^3.x.x",
-    "react": "^0.13.x",
+    "react": "^15.0.0",
     "slug": "^0.9.x",
     "visionary": "^2.x.x"
   },
