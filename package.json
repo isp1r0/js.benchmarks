@@ -19,7 +19,7 @@
     "mongoose": "^4.4.11",
     "mongoose-mass-assign": "^0.4.0",
     "promised-mongo": "^1.2.0",
-    "react": "^0.14.8",
+    "react": "^15.0.0",
     "react-dom": "^0.14.8",
     "redis": "^2.5.3",
     "scrypt": "^6.0.1",
