@@ -17,8 +17,8 @@
   "license": "MIT",
   "dependencies": {
     "bcrypt": "^0.8.5",
-    "hapi": "^12.1.0",
-    "hapi-auth-cookie": "^6.1.1"
+    "hapi": "^18.1.0",
+    "hapi-auth-cookie": "^10.0.0"
   },
   "devDependencies": {
     "code": "^2.0.1",
