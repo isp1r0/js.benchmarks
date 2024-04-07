@@ -27,7 +27,7 @@
     "catbox-redis": "^1.0.6",
     "code": "^2.1.0",
     "crumb": "^5.0.0",
-    "eslint": "^1.10.3",
+    "eslint": "^9.0.0",
     "eslint-plugin-react": "^3.13.1",
     "good": "^6.4.0",
     "good-winston-reporter": "^1.0.0",
