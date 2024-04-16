@@ -16,7 +16,7 @@
     "hapi-router": "^2.1.0",
     "hapi-swagger": "^0.7.3",
     "joi": "^6.1.0",
-    "lodash": "^3.6.0",
+    "lodash": "^4.17.17",
     "moment": "^2.10.2",
     "mongoskin": "^1.4.13",
     "hapi-auth-bearer-token": "~3.1.1",
