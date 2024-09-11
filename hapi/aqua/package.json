@@ -10,7 +10,9 @@
     "test-client": "lab -t 100 -S -T ./test/transform.js -L --lint-options '{\"extensions\":[\".js\",\".jsx\"]}' ./test/client-before.js ./test/client/ ./test/client-after.js",
     "test-server": "lab -t 100 -S -T ./test/transform.js -L --lint-options '{\"extensions\":[\".js\",\".jsx\"]}' ./test/misc/ ./test/server/",
     "test-cover": "lab -t 100 -S -T ./test/transform.js -r html -o ./test/artifacts/coverage.html ./test/client-before.js ./test/client/ ./test/client-after.js ./test/misc/ ./test/server/ && open ./test/artifacts/coverage.html",
-    "update": "david update"
+    "update": "david update",
+    "prepublish": "npm run snyk-protect",
+    "snyk-protect": "snyk-protect"
   },
   "author": "Reza Akhavan <jedireza@gmail.com> (http://reza.akhavan.me/)",
   "license": "MIT",
@@ -20,12 +22,12 @@
     "boom": "^2.x.x",
     "classnames": "^2.x.x",
     "confidence": "^1.x.x",
-    "crumb": "^4.x.x",
-    "glue": "^2.x.x",
+    "crumb": "^7.2.3",
+    "glue": "^6.0.0",
     "handlebars": "^3.x.x",
     "hapi": "^8.x.x",
-    "hapi-auth-basic": "^2.x.x",
-    "hapi-auth-cookie": "^3.x.x",
+    "hapi-auth-basic": "^5.0.0",
+    "hapi-auth-cookie": "^10.0.0",
     "hapi-mongo-models": "^2.x.x",
     "hapi-react-views": "^3.x.x",
     "hoek": "^2.x.x",
@@ -38,7 +40,8 @@
     "object-assign": "^3.x.x",
     "react": "^0.13.x",
     "slug": "^0.9.x",
-    "visionary": "^2.x.x"
+    "visionary": "^2.x.x",
+    "@snyk/protect": "latest"
   },
   "devDependencies": {
     "babel-core": "^5.x.x",
@@ -75,5 +78,6 @@
     "require-dir": "^0.3.x",
     "webpack": "^1.x.x",
     "xhr": "^2.x.x"
-  }
+  },
+  "snyk": true
 }
