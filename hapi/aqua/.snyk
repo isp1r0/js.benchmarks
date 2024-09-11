@@ -1,0 +1,38 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.25.1
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:hoek:20180212':
+    - crumb > hoek:
+        patched: '2024-09-11T03:39:01.151Z'
+        id: 'npm:hoek:20180212'
+        path: crumb > hoek
+    - hapi-auth-basic > hoek:
+        patched: '2024-09-11T03:39:01.151Z'
+        id: 'npm:hoek:20180212'
+        path: hapi-auth-basic > hoek
+    - crumb > joi > hoek:
+        patched: '2024-09-11T03:39:01.151Z'
+        id: 'npm:hoek:20180212'
+        path: crumb > joi > hoek
+    - glue > joi > hoek:
+        patched: '2024-09-11T03:39:01.151Z'
+        id: 'npm:hoek:20180212'
+        path: glue > joi > hoek
+    - hapi-auth-cookie > joi > hoek:
+        patched: '2024-09-11T03:39:01.151Z'
+        id: 'npm:hoek:20180212'
+        path: hapi-auth-cookie > joi > hoek
+    - crumb > joi > topo > hoek:
+        patched: '2024-09-11T03:39:01.151Z'
+        id: 'npm:hoek:20180212'
+        path: crumb > joi > topo > hoek
+    - glue > joi > topo > hoek:
+        patched: '2024-09-11T03:39:01.151Z'
+        id: 'npm:hoek:20180212'
+        path: glue > joi > topo > hoek
+    - hapi-auth-cookie > joi > topo > hoek:
+        patched: '2024-09-11T03:39:01.151Z'
+        id: 'npm:hoek:20180212'
+        path: hapi-auth-cookie > joi > topo > hoek
