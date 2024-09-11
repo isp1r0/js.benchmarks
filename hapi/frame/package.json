@@ -23,7 +23,7 @@
     "handlebars": "4.x.x",
     "hapi": "13.x.x",
     "hapi-auth-basic": "4.x.x",
-    "hapi-mongo-models": "4.x.x",
+    "hapi-mongo-models": "8.0.0",
     "hoek": "3.x.x",
     "inert": "3.x.x",
     "jade": "1.x.x",
