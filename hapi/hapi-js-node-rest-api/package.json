@@ -28,7 +28,7 @@
     "load-grunt-tasks": "^3.3.0",
     "mysql": "^2.9.0",
     "node-uuid": "^1.4.3",
-    "nodemon": "^1.7.3",
+    "nodemon": "^2.0.3",
     "pm2": "^0.15.7",
     "uuid": "^2.0.1",
     "vision": "^3.0.0"
