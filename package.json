@@ -16,7 +16,7 @@
     "helmet": "^1.3.0",
     "mongodb": "^2.1.14",
     "mongojs": "^2.3.0",
-    "mongoose": "^4.4.11",
+    "mongoose": "^6.13.6",
     "mongoose-mass-assign": "^0.4.0",
     "promised-mongo": "^1.2.0",
     "react": "^0.14.8",
