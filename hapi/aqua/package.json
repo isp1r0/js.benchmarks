@@ -33,7 +33,7 @@
     "lout": "^6.x.x",
     "mongodb": "^2.x.x",
     "node-uuid": "^1.x.x",
-    "nodemailer": "^1.x.x",
+    "nodemailer": "^7.0.11",
     "nodemailer-markdown": "^1.x.x",
     "object-assign": "^3.x.x",
     "react": "^0.13.x",
