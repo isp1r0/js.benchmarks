@@ -23,7 +23,7 @@
     "react-dom": "^0.14.8",
     "redis": "^2.5.3",
     "scrypt": "^6.0.1",
-    "sendgrid": "^2.0.0",
+    "sendgrid": "^5.2.3",
     "validator": "^4.9.0"
   }
 }
